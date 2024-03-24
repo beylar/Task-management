@@ -1,18 +1,18 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400|Incosolata:400');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400|Inconsolata:400');
 *,
 ::after,
 ::before {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 :root {
-    /*COLORS*/
-    /*primary*/
-    --primary-0 : #f0efff;
-    --primary-50: #d8d6ff;
-    --primary-100: #c1beff;
-    --primary-200: #aaa5ff;
-    --primary-300: #938dff;
-    --primary-400: #7b74ff;
+  /* COLORS  */
+  /* primary */
+  --primary-0: #f0efff;
+  --primary-50: #d8d6ff;
+  --primary-100: #c1beff;
+  --primary-200: #aaa5ff;
+  --primary-300: #938dff;
+  --primary-400: #7b74ff;
   /* main */
   --primary-500: #645cff;
   --primary-600: #554ed9;
@@ -409,7 +409,6 @@ form > :last-child {
   margin-bottom: 0;
   margin-top: 0;
 }
-
 .single-task-form .form-control {
   display: grid;
   grid-template-columns: 150px 1fr;
@@ -444,5 +443,3 @@ form > :last-child {
   text-align: center;
   margin-top: 1rem;
 }
-
-
